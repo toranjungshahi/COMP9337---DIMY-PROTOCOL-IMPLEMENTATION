@@ -34,10 +34,12 @@ To run the DIMY implementation, follow these steps:
  python Dimy.py <server_ip> <server_port> <node_number> <receiver_port>
 ```
 Or can use run_3nodes.py file to run three Dimy nodes simultaneously.
-```python run_3nodes.py
+```
+python run_3nodes.py
 ```
  5. To run the attacker node:
-```python Attacker .py <server_ip> <server_port> <port_to_attack>
+```
+python Attacker .py <server_ip> <server_port> <port_to_attack>
 ```
  Replace <server_ip>, <server_port>, <node_number>, <receiver_port>, and <port_to_attack>
  with appropriate values.
